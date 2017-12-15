@@ -1,0 +1,124 @@
+/* Css */
+body{
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+  height: 50px;
+  width: 100%x;
+  background-color: black;
+  overflow: hidden;
+}
+
+nav li{
+  padding: 0px;
+  float: left;
+  height: 50px;
+  margin: auto;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: blue;
+    height: 100%;
+}
+#home{
+  float: left;
+  border-right: 2px solid white;
+}
+.logo{
+  height: 400px;
+  width: auto;
+  margin: 0;
+  background-image: url(sunrise-1756274_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logo h1{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  margin: 0;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.container{
+  width: 1000px
+  height:300px;
+}
+.box1{
+  height: auto;
+  border: white thin solid;
+  background-color: #8597a3;
+  text-align: left;
+  width: 33%;
+  float: left;
+  margin-right: 5px;
+
+}
+.box2{
+  height: auto;
+  border: white thin solid;
+  background-color: #8597a3;
+  text-align: left;
+  width: 33%;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+.box3{
+  height: auto;
+  border: white thin solid;
+  background-color: #8597a3;
+  text-align: left;
+  width: 33%;
+  float: right;
+}
+.box{
+  text-align: center;
+  height: 75px;
+}
+.boximg{
+  text-align: center;
+  height: auto;
+}
+@media (max-width:600px){
+  .logo{
+    height: 200px;
+  }
+}
+@media (max-width:800px){
+  .box1{
+    width: 100%;
+    height: auto;
+    float:none;
+  }
+  .box2{
+    width: 100%;
+    height: auto;
+  }
+  .box3{
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+}
